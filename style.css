@@ -1,0 +1,137 @@
+@font-face {
+    font-family:"Against History";
+    src: url('Against_History');
+    src: local('Against History'), local('Against History'), url('Against_History.ttf') format('truetype');
+}
+
+/* element.style {
+}
+
+head {
+    display: none;
+}
+html, body, p, b, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    color: #282a36; */
+/* } */
+
+/* .container {
+    color: #e65050;
+    display: inline;
+    float: right;
+    padding: 20px;
+    font-size: 25px;
+    transition: all 0,2;
+    margin-right: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    
+  }
+  
+  .container a {
+    color: #282a36;
+    text-decoration: none;
+    transition: all 0,2;
+    padding: 20px;
+
+  }
+  
+  .container a:hover {
+    color: #e65050;
+  } */
+.picture{
+
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-left: 10%;
+   
+}
+
+
+/* .row{
+        
+        padding-left: 10%;
+        padding-right: 10%;
+        color: #282a36;
+        margin-top: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+.row h1{
+        font-size:30px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
+    
+.row p{
+        font-size:20px;
+        margin-top: 10px;
+        
+} */
+
+#textossobre{
+    margin-top: 70px;
+    float: left;
+    margin-bottom: 50px;
+    padding-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+#textossobre h1{
+    margin-top: 40px;
+
+}
+
+#textossobre p{
+    margin-top: 20px;
+
+}
+#sobremim{
+    margin-left: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #282a36;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#sobremim h1{
+    font-size:30px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+#sobremim p{
+    font-size:20px;
+    margin-top: 20PX;
+    
+}
+
+.botoes{
+    float: left;
+    display: flex;
+    margin-top: 60px;
+    padding-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.botoes a {
+    float: left;
+    display: flex;
+    margin-left: 10px;
+    
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
